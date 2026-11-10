@@ -18,7 +18,6 @@
     }
   },
   "variants": {
-    "v-a": "graph-a.yml",
-    "v-b": "graph-b.yml"
+    "v-a": "graph-a.yml"
   }
 }
