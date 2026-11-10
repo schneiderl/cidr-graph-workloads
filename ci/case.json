@@ -1,0 +1,24 @@
+{
+  "seed": "catalog-a",
+  "iterations": 60000000,
+  "requiredJobs": {
+    "checks": {
+      "name": "checks",
+      "tests": {
+        "case-001": "19c17e367f7dde86e6e6b7ae45cb528fbcc168fd22415f207e4aeb22164f2e3a"
+      },
+      "outputs": {}
+    },
+    "summary": {
+      "name": "summary",
+      "tests": {},
+      "outputs": {
+        "digest-001": "a66f16f5ec20b16eb762866400625f838eaa87fb65d94828d2965c4d30a4aa05"
+      }
+    }
+  },
+  "variants": {
+    "v-a": "graph-a.yml",
+    "v-b": "graph-b.yml"
+  }
+}
