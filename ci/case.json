@@ -1,23 +1,24 @@
 {
-  "seed": "catalog-a",
+  "seed": "catalog-b",
   "iterations": 60000000,
   "requiredJobs": {
-    "checks": {
-      "name": "checks",
+    "verify": {
+      "name": "verify",
       "tests": {
-        "case-001": "19c17e367f7dde86e6e6b7ae45cb528fbcc168fd22415f207e4aeb22164f2e3a"
+        "case-001": "89c7acaa3de42319f52234717519de5f204c53a78b40eb5648b7291f794cf70f"
       },
       "outputs": {}
     },
-    "summary": {
-      "name": "summary",
+    "digest": {
+      "name": "digest",
       "tests": {},
       "outputs": {
-        "digest-001": "a66f16f5ec20b16eb762866400625f838eaa87fb65d94828d2965c4d30a4aa05"
+        "digest-001": "80faf37f77f99406616e418cb2bbadd1b32b93d2d0018a14a9401b48a177b84f"
       }
     }
   },
   "variants": {
-    "v-a": "graph-a.yml"
+    "v-a": "graph-a.yml",
+    "v-b": "graph-b.yml"
   }
 }
